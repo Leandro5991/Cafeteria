@@ -1,0 +1,268 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner,
+.imagem-fundo-1,
+.imagem-fundo-2,
+.contatos,
+.horario{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.topo{
+    position: fixed;
+    background-color: #604829;
+    width: 100%;
+    z-index: 1;
+}
+
+.topo img{
+    width: 100px;
+    left: 15%;
+    position: relative;
+}
+
+.topo div   {
+    top: 35%;
+    right: 15%;
+    position: absolute;
+}
+
+.topo div a{
+    font-family: "Oswald", sans-serif;
+    color: #c4a47c;
+}
+
+
+.texto h2{
+   color: #c4a47c;
+}
+
+.contato{
+    background-color: #604829;
+    
+}
+.contato p{
+    color:#fff;
+}
+
+.banner{
+    height: 100vh;
+    background-image: url('img/parallax-imagem1.png');
+}
+.titulo-banner h1{
+    font-family: "Fraunces", serif;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+
+
+.texto{
+    padding: 80px 0px;
+    position: relative;
+}
+
+.texto h2{
+    color: #c4a47c;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+
+
+.texto p{
+    text-align: center;
+    max-width: 1024px;
+    padding: 0px 20px;
+    font-family: lato;
+    color: #666;
+    margin: 0 auto;
+}
+
+
+
+.imagem-fundo-1{
+    height: 50vh;
+    background-image: url('img/parallax-imagem2.jpg');
+}
+
+.imagem-fundo-2{
+    height: 100vh;
+    background-image: url('img/parallax-imagem3.jpg');
+}
+.texto-imagem h3{
+
+    background-color: #604829;
+    color: #fff;
+    position: relative;
+    top: 45%;
+    right: 0;
+    left: 0;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.contatos{
+    height: 120vh;
+    background-image: url('img/parallax-imagem4.png');
+}
+
+.contatos h2{
+    background-color: #604829;
+    position: relative;
+    text-align: center;
+    width: 500px;
+    padding: 10px;
+    top: 10%;
+    right: 0;
+    left: 0; 
+    margin: auto;
+    color: #fff;
+}
+
+.contato {
+    width: 500px;
+    padding: 10px;
+    position:absolute;
+    bottom: 8%;
+    right: 0;
+    left: 0; 
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.frame{
+    width: 1024px;
+    height: 450px;
+    position: absolute;
+    top: 23%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.horario{
+    height: 85vh;
+    background-image: url('img/cafeteria.jpg');
+  
+
+}
+
+.horario h2{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    right: 0;
+    left: 0;
+    color: #fff;
+    margin:0 auto;
+    font-family: Oswald;
+
+}
+
+
+.horario h3{
+    color: #fff;
+
+}
+
+.horario  p{
+    color: #fff;
+  
+}
+.destaque{
+    color: #c4a47c;
+}
+
+.lista-horarios{
+    max-width: 768px;
+    position:absolute;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.lista-horarios li{
+    position: relative;
+}
+
+.lista-horarios li h3{
+    margin-bottom: 20px;
+    position: absolute ;
+
+}
+
+.lista-horarios li div{
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    right: 0;
+    left: 0;
+    background-color: #acacac;
+    
+}
+
+.lista-horarios li p,
+.destaque{
+    position: relative;
+    top: 0;
+    right: -350px;
+    font-weight: 700;
+    font-family: Oswald;
+    
+
+}
+
+.rodape{
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: lato;
+    line-height: 34px;
+    background-color: #000000;
+}
+.rodape p{  
+    color: #fff;
+}
+
+.rodape a{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+    
+    background-image: url('img/seta-para-cima.png');
+    background-position: center;
+    background-position: cover;
+    background-color: #c4a47c;
+    border-radius: 4px;
+}
+span{
+    color: #c4a47c;
+}
